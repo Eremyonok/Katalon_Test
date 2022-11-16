@@ -17,21 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://docs.google.com/forms/d/e/1FAIpQLSd4rNQ06qUW0ksC_ek2bB2RgflMudGtDpS5VfBaqryYDW3-ng/viewform')
-
-WebUI.click(findTestObject('Object Repository/Page_test/div_Name'))
-
-WebUI.setText(findTestObject('Object Repository/Page_test/input__whsOnd zHQkBf'), 'Elizaveta Eremenok')
-
-WebUI.sendKeys(Keys.TAB, 'eremeonock.el@yandex.ru')
-
-WebUI.click(findTestObject('Object Repository/Page_test/div_a new language'))
-
-WebUI.sendKeys(Keys.TAB, 'fjdnvdfg')
-
-WebUI.closeBrowser()
-
-WebUI.closeBrowser()
-
