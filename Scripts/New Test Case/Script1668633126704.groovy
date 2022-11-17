@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://docs.google.com/forms/d/e/1FAIpQLSd4rNQ06qUW0ksC_ek2bB2RgflMudGtDpS5VfBaqryYDW3-ng/viewform')
+WebUI.navigateToUrl('https://docs.google.com/forms/d/e/1FAIpQLSeq8naEPofrOrOA0nxdGj6L7jqddI8xHMFIyl9ailFnfl-uTQ/viewform')
 
 WebUI.click(findTestObject('Object Repository/Page_test/div_Name'))
 
