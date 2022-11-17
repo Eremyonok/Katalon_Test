@@ -29,7 +29,7 @@ WebUI.sendKeys(Keys.TAB, 'eremeonock.el@yandex.ru')
 
 WebUI.click(findTestObject('Object Repository/Page_test/div_a new language'))
 
-WebUI.sendKeys(Keys.TAB, 'fjdnvdfg')
+WebUI.sendKeys(Keys.TAB, 'https://github.com/Eremyonok/Katalon_Test')
 
 WebUI.closeBrowser()
 
